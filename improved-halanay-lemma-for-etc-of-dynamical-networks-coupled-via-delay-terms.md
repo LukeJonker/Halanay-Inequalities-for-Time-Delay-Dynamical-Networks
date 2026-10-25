@@ -8,10 +8,10 @@
 
 Fix $`n \in \mathbb{Z}_{\ge 1}`$, $`t_0 \in \mathbb{R}`$, $`\tau > 0`$, and constants $`a_i, \beta_i > 0`$, $`\alpha_i \ge 0`$, $`b_{ij} \ge 0`$ for $`i, j \in [1,n]`$, with $`b_{ii} > 0`$
 
-Define: $`||V_i||_t := \sup_{-\tau \le s \le 0}\{V_i(t+s)\}`$ and let $`V_i : [t_0-\tau, \infty) \to \mathbb{R}_{\ge0}`$ be continuous functions such that:
+Define: $`\|V_i\|_t := \sup_{-\tau \le s \le 0}\{V_i(t+s)\}`$ and let $`V_i : [t_0-\tau, \infty) \to \mathbb{R}_{\ge0}`$ be continuous functions such that:
 
 ```math
-D^+V_i(t) \le -a_iV_i(t) + \sum_{j=1}^{n} c_{ij}||V_j||_t + \alpha_i e^{-\beta_i(t-t_0)}, \quad i\in[1,n], \quad \forall t\ge t_0 \quad (C1)
+D^+V_i(t) \le -a_iV_i(t) + \sum_{j=1}^{n} c_{ij}\|V_j\|_t + \alpha_i e^{-\beta_i(t-t_0)}, \quad i\in[1,n], \quad \forall t\ge t_0 \quad (C1)
 ```
 
 Define the directed graph $`\mathcal{G:= (V,E)}`$ where:
@@ -83,4 +83,5 @@ V_i(t) \le \bar M_i^*\, e^{-\Lambda_i^*(t-t_0)}, \quad \forall t \ge t_0 \quad (
 ```
 
 Proof: [removed]
+
 ===
