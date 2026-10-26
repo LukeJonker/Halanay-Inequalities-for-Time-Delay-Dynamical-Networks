@@ -84,4 +84,4 @@ V_i(t) \le \bar M_i^*\, e^{-\Lambda_i^*(t-t_0)}, \quad \forall t \ge t_0 \quad (
 
 Proof: [removed]
 
-===
+---
